@@ -1,0 +1,15 @@
+azure:
+  tenant: 27d1d5a7-306f-4239-ab67-3bd61777078a
+  scope: api://${azure.tenant}/default
+  audience: 4ff87c50-e5f9-48ed-b6e2-d7bb5dbd1d57
+  issuer: https://login.microsoftonline.com/${azure.tenant}/v2.0
+
+spoonacular:
+  api-key:
+nutritionix:
+  api-key:
+  app-id:
+
+logging:
+  level:
+    root: INFO

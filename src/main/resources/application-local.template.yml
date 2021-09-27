@@ -1,0 +1,21 @@
+spoonacular:
+  api-key:
+nutritionix:
+  api-key:
+  app-id:
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url:
+    username:
+    password:
+    jpa:
+      hibernate.ddl-auto: validate
+      generate-ddl: false
+      show-sql: false
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    schemas: azure
